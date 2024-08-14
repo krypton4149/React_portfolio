@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
+import phone from "../../Assets/Projects/phone.png"
 
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
@@ -44,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={phone}
               isBlog={false}
               title="Phonefy"
               description="An e-commerce platform for smartphones, built with React.js, offering a seamless shopping experience. It includes features like product search, detailed product pages, a shopping cart, secure checkout, and user authentication."
